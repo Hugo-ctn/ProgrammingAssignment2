@@ -3,7 +3,7 @@
 ## <<- operator and will be able to get the values from this environment later on. This environment is our "cache".
 
 ## This function avoids the multiple computation of the inverse of a matrix. When the inverse of a matrix has been calculated via 
-## cacheSolve(makeCacheMatrix(X)), it will be stored in cache and running cacheSolve(makeCacheMatrix(X)) again will just get the inverse 
+## A <- makeCacheMatrix(X);  cacheSolve(A), it will be stored in cache and running cacheSolve(A) again will just get the inverse 
 ## from the cache.
 
 makeCacheMatrix <- function(X = matrix()) {
