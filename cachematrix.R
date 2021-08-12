@@ -30,7 +30,7 @@ makeCacheMatrix <- function(X = matrix()) {
 
 ## This function will compute the inverse of a matrix and store it in a cache thanks to the makeCacheMatrix() function if it 
 ## hasn't been calculated yet.
-## Otherwise, it will get the calculated inverse from the cache without having to compute it and will print it.
+## Otherwise, it will get the calculated inverse from the cache without having to compute it and will return it.
 
 ## The goal of makeCacheMatrix and cacheSolve is to avoid the multiple computing of the inverse of a matrix.
 
